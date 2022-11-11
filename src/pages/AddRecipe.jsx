@@ -2,7 +2,7 @@ import { addDoc, collection } from 'firebase/firestore'
 import React from 'react'
 import { useState } from 'react'
 import { auth, db, storage } from '../firebase'
-import { uploadBytesResumable, uploadBytes, getDownloadURL, ref } from 'firebase/storage'
+import { uploadBytes, getDownloadURL, ref } from 'firebase/storage'
 import { useNavigate } from 'react-router-dom'
 
 export default function AddRecipe() {
